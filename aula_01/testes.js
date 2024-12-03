@@ -1,0 +1,13 @@
+const leia = require("readline-sync")
+let n1, n2, soma;
+n1 =leia.questionInt("\nescreva o valor de n1: ")
+n2 =leia.questionInt("\nescreva o valor de n2: ")
+console.log ("\nA variavel n1 possui o valor", n1)
+console.log ("\nA variavel n2 possui o valor", n2)
+console.log("\nA soma de n1 e n2 é = ", n1 + n2)
+console.log("\nA subtração de n1 e n2 é = ", n1 - n2)
+console.log("\nA multiplicação de n1 e n2 é = ", n1 * n2)
+console.log("\nA divisão de n1 e n2 é = ", n1 / n2)
+console.log("\nA potenciação de n1 e n2 é = ", Math.pow(n1, n2))
+console.log("\nA raiz quadrada de n1 é = ", Math.sqrt(n1))
+console.log("\nA raiz quadrada de n2 é = ", Math.sqrt(n2))
