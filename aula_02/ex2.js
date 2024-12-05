@@ -7,7 +7,7 @@ n3 =leia.questionInt("\nDigite a nota 3: ")
 n4 =leia.questionInt("\nDigite a nota 4: ")
 
 
-console.log("Média =", (n1 + n2 + n3 + n4) / 4 )
+console.log("Média =",(n1 + n2 + n3 + n4) / 4)
 
 
 
